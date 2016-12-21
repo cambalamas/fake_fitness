@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Exercises>
+  <Exercise Id="0" Dist="3000" Mins="10" Date="01/12/2016 23:46:28" />
+  <Exercise Id="1" Dist="3000" Mins="1000" Date="03/12/2016 23:46:28" />
+  <Exercise Id="2" Dist="2000" Mins="30" Date="05/12/2016 0:29:25" />
+  <Exercise Id="3" Dist="6000" Mins="22" Date="07/12/2016 0:30:28" />
+  <Exercise Id="4" Dist="900" Mins="2" Date="12/12/2016 0:30:28" />
+  <Exercise Id="5" Dist="9000" Mins="600" Date="14/12/2016 0:30:28" />
+  <Exercise Id="6" Dist="7000" Mins="60" Date="14/12/2016 0:30:28" />
+  <Exercise Id="7" Dist="1060" Mins="600" Date="14/12/2016 0:30:28" />
+  <Exercise Id="8" Dist="100" Mins="10" Date="14/12/2016 0:30:28" />
+  <Exercise Id="9" Dist="7900" Mins="60" Date="14/12/2016 0:30:28" />
+  <Exercise Id="10" Dist="900" Mins="600" Date="14/12/2016 0:30:28" />
+  <Exercise Id="11" Dist="1520" Mins="60" Date="14/12/2016 0:30:28" />
+  <Exercise Id="12" Dist="800" Mins="60" Date="14/12/2016 0:30:28" />
+  <Exercise Id="13" Dist="4500" Mins="35" Date="17/12/2016 0:30:28" />
+  <Exercise Id="14" Dist="22200" Mins="27" Date="18/12/2016 0:30:28" />
+  <Exercise Id="15" Dist="6500" Mins="1300" Date="22/12/2016 0:30:28" />
+  <Exercise Id="16" Dist="100" Mins="13" Date="25/11/2016 0:30:28" />
+  <Exercise Id="17" Dist="600" Mins="13" Date="24/11/2016 0:30:28" />
+  <Exercise Id="18" Dist="6500" Mins="130" Date="23/11/2016 0:30:28" />
+  <Exercise Id="19" Dist="500" Mins="13" Date="21/11/2016 0:30:28" />
+</Exercises>

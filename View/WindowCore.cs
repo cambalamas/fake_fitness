@@ -523,7 +523,7 @@ namespace FakeFitness.View
 		private void GraphicDist()
 		{
 			CurrentGraphData = GraphExercisesDist;
-			RenderGraph("KiloMeters", 255, 30, 0);
+			RenderGraph("KiloMeters", 255, 0, 120);
 		}
 
 		/// <summary>

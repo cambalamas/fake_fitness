@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Measures>
+  <Measure Id="0" Weight="105" Size="48" Date="01/12/2016 23:45:49" />
+  <Measure Id="1" Weight="105" Size="48" Date="02/12/2016 23:45:49" />
+  <Measure Id="2" Weight="101" Size="48" Date="03/12/2016 0:29:00" />
+  <Measure Id="3" Weight="101" Size="48" Date="04/12/2016 0:29:00" />
+  <Measure Id="4" Weight="101" Size="48" Date="05/12/2016 0:29:00" />
+  <Measure Id="5" Weight="101" Size="48" Date="06/12/2016 0:29:00" />
+  <Measure Id="6" Weight="96" Size="46" Date="07/12/2016 0:29:00" />
+  <Measure Id="7" Weight="96" Size="46" Date="08/12/2016 0:29:00" />
+  <Measure Id="8" Weight="96" Size="46" Date="09/12/2016 0:29:00" />
+  <Measure Id="9" Weight="96" Size="46" Date="10/12/2016 0:29:00" />
+  <Measure Id="10" Weight="96" Size="46" Date="11/12/2016 0:29:00" />
+  <Measure Id="11" Weight="93" Size="46" Date="12/12/2016 0:29:00" />
+  <Measure Id="12" Weight="93" Size="46" Date="13/12/2016 0:29:00" />
+  <Measure Id="13" Weight="89" Size="42" Date="14/12/2016 0:29:00" />
+  <Measure Id="14" Weight="89" Size="42" Date="15/12/2016 0:29:00" />
+  <Measure Id="15" Weight="89" Size="42" Date="16/12/2016 0:29:00" />
+  <Measure Id="16" Weight="84" Size="42" Date="17/12/2016 0:29:00" />
+  <Measure Id="17" Weight="80" Size="40" Date="18/12/2016 0:29:00" />
+  <Measure Id="18" Weight="80" Size="40" Date="19/12/2016 0:29:00" />
+  <Measure Id="19" Weight="80" Size="40" Date="20/12/2016 0:29:00" />
+  <Measure Id="20" Weight="80" Size="40" Date="21/12/2016 0:29:00" />
+  <Measure Id="21" Weight="75" Size="40" Date="22/12/2016 0:29:00" />
+</Measures>

@@ -67,6 +67,7 @@ namespace FakeFitness.View
 				}
 			}
 		}
+
 		/// <summary>
 		/// Construye la vista sobre la que se basa la aplicación
 		/// </summary>
@@ -76,8 +77,7 @@ namespace FakeFitness.View
 
 			// ----------------------TAMANHO-----------------------
 
-			//SetGeometryHints(
-			//	this, new Gdk.Geometry() { MinWidth = 400, MinHeight = 400 }, Gdk.WindowHints.MinSize);
+			this.Resizable = false;
 
 			// ----------------------EVENTOS-----------------------
 
@@ -88,22 +88,13 @@ namespace FakeFitness.View
 			var Layout = new Gtk.HBox(false, 5);
 			var MainBox = new Gtk.VBox(false, 5);
 
-			MainBox.Add( new Gtk.HSeparator() );
-			MainBox.Add( CalendarView() );
-			MainBox.Add( new Gtk.HSeparator() );
-			MainBox.Add( MeasureView() );
-			MainBox.Add( new Gtk.HSeparator() );
-			MainBox.Add( ExercisesListView() );
-			MainBox.Add( new Gtk.HSeparator() );
-			MainBox.Add( ExercisesAddView() );
-			MainBox.Add( new Gtk.HSeparator() );
-			MainBox.Add( GraphicView() );
-			MainBox.Add( new Gtk.HSeparator() );
+			MainBox.PackStart( CalendarView(), true, true, 10);
+			MainBox.PackStart( MeasureView(), true, true, 10 );
+			MainBox.PackStart( ExercisesListView(), true, true, 10 );
+			MainBox.PackStart( ExercisesAddView(), true, true, 10 );
+			MainBox.PackStart( GraphicView(), true, true, 10 );
 
-			Layout.Add( new Gtk.VSeparator() );
-			Layout.Add( MainBox );
-			Layout.Add( new Gtk.VSeparator() );
-
+			Layout.PackStart( MainBox, true, true, 30 );
 			this.Add(Layout);
 		}
 		/// <summary>
@@ -137,6 +128,7 @@ namespace FakeFitness.View
 
 			// Tree.
 			ExercisesTreeview = new Gtk.TreeView();
+			ExercisesTreeview.HeightRequest = 150;
 
 			// Tree model.
 			ExercisesTreeview.Model =
